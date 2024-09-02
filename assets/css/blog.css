@@ -138,7 +138,7 @@ nav {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #C32148; 
+    background-color: var(--main-color); 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -147,7 +147,7 @@ nav {
   }
   
   .show-more:hover {
-    background-color: #a1193b; /* Darken color on hover */
+    background-color: var(--main-color); /* Darken color on hover */
   }
   /* Center the Show More button End */
   

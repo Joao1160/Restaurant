@@ -46,6 +46,7 @@
     flex-direction: column;
     gap: 100px;
     text-align: center;
+    padding-bottom: 100px;
   }
   .home .container .order {
     justify-content: center;
@@ -58,7 +59,109 @@
     width: 350px;
   }
 }
+@media (max-width: 600px) {
+  .home .links-social {
+    transform: rotate(0) translate(50%, -50%);
+    top: 55%;
+    right: 50%;
+  }
+  .home .container {
+    gap: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .home .links-social {
+    top: 60%;
+  }
+  .home .container .home-content {
+    width: 300px;
+  }
+  .home .container .image {
+    width: 300px;
+  }
+}
 /* Home End */
+/* Mobile App Start */
+@media (max-width: 990px) {
+  .mobile-app .container .mobile-app-content .icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+  }
+  .mobile-app .container .mobile-app-content .icons img {
+    max-width: 120px;
+  }
+  .mobile-app .container .mobile-app-content .icons img:first-child {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-app .container .mobile-app-content .icons {
+    position: relative;
+    transform: translateY(0);
+    padding: 0 35px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    right: unset;
+
+  }
+  .mobile-app .container .mobile-app-content .icons img {
+    max-width: 120px;
+  }
+  .mobile-app .container .mobile-app-content .icons img:first-child {
+    display: block;
+    transform: translateY(0);
+  }
+  
+.mobile-app .container .mobile-app-content .title{
+  width: fit-content;
+  font-size: 26px;
+  text-align: center;
+}
+.mobile-app .container .mobile-app-content .desc{
+  width: fit-content;
+  text-align: center;
+}
+.mobile-app .container .mobile-app-content .links {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+}
+/* Mobile App End */
+
+/* CheckOut CSS Start */
+
+@media (max-width: 990px) {
+  .checkout{
+    margin-bottom: 0;
+  }
+  .checkout .container {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .checkout .container .checkout-content {
+    width: 100%;
+  }
+  .checkout .container .checkout-content .icon {
+    margin: 20px auto;
+  }
+  .checkout .container .checkout-details {
+    position: relative;
+    width: 350px;
+    margin: auto;
+  }
+}
+@media (max-width: 550px) {
+
+  .checkout .container .checkout-details {
+    width: 300px;
+  }
+}
+
+/* CheckOut CSS End */
 
 /* Footer CSS Start */
 @media (max-width: 1199px) {
