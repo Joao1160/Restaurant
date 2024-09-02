@@ -14,13 +14,13 @@ $(window).scroll(function () {
   var windowOffset = $(this).scrollTop();
   
   if (windowOffset > 100 ) {
-    $("nav").css({
+    $("nav.home-nav").css({
       backgroundColor: "white",
   })
   }
   
   if (windowOffset < 100 ) {
-    $("nav").css({
+    $("nav.home-nav").css({
       backgroundColor: "#ffffff00",
   })
   }
