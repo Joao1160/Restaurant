@@ -137,11 +137,11 @@
     text-align: center;
   }
 
-  .About-us .annoncement2 .content h2 {
+  .About-us .annoncement2 .content .announce2Tag {
     max-width: 100% !important;
   }
 
-  .About-us .annoncement2 .content h6 {
+  .About-us .annoncement2 .content .announce2Description {
     max-width: 100% !important;
   }
 
