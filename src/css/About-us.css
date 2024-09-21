@@ -1,0 +1,343 @@
+/* General CSS Start */
+:root {
+  --font: "Roboto", sans-serif;
+  --headline-font: "Dancing Script", cursive;
+  --main-color: #c33;
+  --secondary-color: #666;
+  --margin-b: 20px;
+  --padding-b: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+nav{
+    background-color: #fff;
+}
+
+.About-us .name-page {
+  text-align: center;
+  background-image: url(../images/ad-ban-bg.png);
+  margin-top: 80px;
+  height: 300px;
+  color: #fff;
+}
+
+.About-us {
+  font-family: var(--font);
+}
+
+.About-us .name-page h1 {
+  padding-top: 90px;
+}
+
+.About-us .name-page .blur,
+.About-us .annoncement1 .blur,
+.About-us .annoncement2 .blur {
+  background-color: rgba(47, 45, 45, 0.5);
+  height: 100%;
+}
+
+.firstSection .container .row .rightPart .buffetSurvice,
+.firstSection .container .row .rightPart .OnlineBooking {
+  display: flex;
+}
+
+.firstSection .container .row .experience img {
+  max-width: 100%;
+}
+
+.firstSection .container .row .rightPart .buffetSurvice .icon {
+  height: 60px;
+  width: 60px;
+}
+
+.firstSection .container .row .rightPart .buffetSurvice,
+.firstSection .container .row .rightPart .OnlineBooking {
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+.firstSection .container .row .rightPart .OnlineBooking .icon {
+  height: 60px;
+  width: 60px;
+}
+
+.firstSection .container .row .rightPart button {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 20px;
+}
+
+.firstSection .container .row .rightPart button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.firstSection .container .row .rightPart .title,
+.TeamHeader .title,
+.About-us .annoncement2 .blur .subscribe .subscribeHeader .title,
+.About-us .annoncement2 .blur .subscribe .subscribeFooter .title {
+  color: var(--main-color);
+  font-family: var(--headline-font);
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.firstSection .container .row .rightPart h3 {
+  font-weight: bolder;
+}
+
+.About-us .annoncement1 {
+  background-image: url(../images/announce2.png);
+  text-align: center;
+}
+
+.About-us .annoncement2 {
+  background-image: url(../images/subscribe-bg.png);
+}
+
+.About-us .annoncement1,
+.About-us .annoncement2 {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-top: 90px;
+}
+.About-us .annoncement2 {
+  margin: 0;
+  margin-bottom: 90px;
+}
+
+.About-us .annoncement1 button {
+  width: 140px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(65, 142, 190);
+  color: #fff;
+  font-size: 15px;
+}
+.About-us .annoncement1 .blur {
+  padding-top: 100px;
+}
+
+.About-us .annoncement2 .blur {
+  padding-top: 80px;
+  display: flex;
+  position: relative;
+}
+
+.About-us .annoncement2 .blur .content h6,
+.About-us .annoncement2 .blur .content h2 {
+  padding-bottom: 10px;
+  color: #fff;
+  max-width: 450px;
+}
+
+.About-us .annoncement1 h6,
+.About-us .annoncement2 .content h6 {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.About-us .annoncement1 h2 {
+  padding-bottom: 10px;
+}
+.team-member {
+  padding: 100px 0;
+}
+
+.TeamHeader h1 {
+  font-weight: bolder;
+
+}
+
+.TeamHeader {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.TeamSection .member .jop {
+  color: #666;
+}
+
+.TeamSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.TeamSection .member {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+}
+
+.TeamSection .member .details {
+  padding: 20px 0;
+}
+
+.TeamSection .member::after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  background-color: black;
+  bottom: 0;
+  height: 5px;
+  right: 15%;
+}
+
+.About-us .annoncement2 .container {
+  position: relative;
+}
+
+.About-us .annoncement2 .blur .content .icon {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 25px;
+  padding-top: 9px;
+}
+
+.About-us .annoncement2 .blur .subscribe {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 380px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 390px;
+  z-index: 2;
+  box-shadow: 0px 10px 15px #ddd;
+}
+
+.About-us .annoncement2 .blur .subscribe .subscribeHeader {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.About-us .annoncement2 .blur .subscribe .subscribeHeader h2 {
+  padding-bottom: 10px;
+}
+
+.About-us .annoncement2 .blur .subscribe .subscribeFooter {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.About-us .annoncement2 .blur .subscribe .subscribeFooter .title {
+  color: black;
+}
+
+.About-us .annoncement2 .blur .subscribe .eachDay p {
+  margin-bottom: 9px;
+  color: rgb(107, 107, 107);
+}
+.firstSection-image img {
+  max-width: 100%;
+}
+.About-us .annoncement2 .blur .subscribe .eachDay div {
+  border-bottom: dashed rgb(196, 196, 196) 1px;
+}
+footer{
+    padding-top: 30px;
+}
+
+@media (max-width: 1200px) {
+  .TeamSection {
+    /* padding: 0px 130px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(298px, 1fr));
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .TeamSection .member .jop {
+    font-size: 12px;
+  }
+
+  .TeamSection .member .name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .TeamSection .member .jop {
+    font-size: 15px;
+  }
+
+  .TeamSection .member .name {
+    font-size: 25px;
+  }
+
+  .About-us .annoncement2 {
+    height: fit-content;
+    margin: 0px;
+    margin-top: 90px;
+  }
+
+  .About-us .annoncement2 .blur .subscribe {
+    position: relative;
+    margin: 20px auto;
+    right: unset;
+    top: unset;
+    box-shadow: 0px 0px 10px #ddd;
+  }
+
+  .About-us .annoncement2 .blur {
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .About-us .annoncement2 .content {
+    text-align: center;
+  }
+
+  .About-us .annoncement2 .content h2 {
+    max-width: 100% !important;
+  }
+
+  .About-us .annoncement2 .content h6 {
+    max-width: 100% !important;
+  }
+
+  .About-us .annoncement2 .content .icon {
+    margin: auto;
+    font-size: 20px !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    width: 55px !important;
+    height: 55px !important;
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .About-us .annoncement2 .blur .subscribe {
+    width: 100%;
+    height: fit-content;
+  }
+}
